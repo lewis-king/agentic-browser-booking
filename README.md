@@ -4,6 +4,10 @@ An experiment combining [Vercel's agent-browser](https://github.com/vercel-labs/
 
 The idea: give an LLM a browser it can control, point it at a restaurant website, and watch it fill in the reservation form autonomously. Kimi K2.5's multimodal capabilities (particularly strong at vision) make it a good fit — when the text-based accessibility snapshot can't see a modal or overlay, the agent falls back to taking a screenshot and sending it to Kimi's vision API to figure out what's on screen.
 
+## Demo
+
+<video src="demos/demo.mp4" controls width="100%"></video>
+
 ## How it works
 
 ```
