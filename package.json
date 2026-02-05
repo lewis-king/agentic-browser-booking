@@ -1,0 +1,21 @@
+{
+  "name": "agentic-browser-booking",
+  "version": "1.0.0",
+  "description": "Booking agent using Kimi k2.5 and Vercel agent-browser",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^2.0.27",
+    "agent-browser": "^0.9.1",
+    "ai": "^6.0.72",
+    "dotenv": "^17.2.3",
+    "zod": "^4.3.6"
+  }
+}
