@@ -83,6 +83,8 @@ echo "MOONSHOT_API_KEY=your_key_here" > .env
 # Pass any booking request as a CLI argument
 npx tsx index.ts "Book Kronenhalle Zurich for 2 at 3:30pm on March 27th"
 
+npx tsx index.ts "Book Lux Zurich for 4 8pm on March 27th" --name "Jane Doe" --phone "+41 79 987 6543" --email "janedoe@gmail.com"
+
 # Or use the npm script (uses a default query)
 npm start
 ```
